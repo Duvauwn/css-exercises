@@ -24,27 +24,28 @@ on a smaller screen it will look like this:
 DONE
 
 - Header text is vertically centered and 16px from the edge of the screen.
-
+DONE
 
 - Footer is pushed to bottom of screen (footer may go _below_ the bottom of the screen if the content of the 'cards' section overflows and/or if your screen is shorter)
-
+DONE
 
 - Footer text is centered horizontally and vertically.
-
+DONE
 
 - Sidebar and cards take up all available space above the footer.
-
+DONE
 
 - Sidebar is 300px wide (i.e. it doesn't shrink)
-
+DONE
 
 - Sidebar links are size 24px, white and do not have the underline text decoration.
-
+DONE
 
 - Sidebar has 16px padding.
-
+DONE
 
 - There is 32px padding around the 'cards' section
-
+DONE
 
 - Cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page
+DONE(Not pretty but done)

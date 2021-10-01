@@ -16,6 +16,9 @@ body {
 .cards {
   display: flex;
   flex-direction: row;
+  padding: 32px;
+  gap: 10px;
+  flex-wrap:wrap;
 }
 /* my stuff end*/
 .header {
@@ -26,6 +29,10 @@ body {
   /* my stuff start*/
   font-size: 32px;
   font-weight: 900;
+  padding-left: 16px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
   /* my stuff end*/
 }
 
@@ -34,7 +41,12 @@ body {
   background: #eee;
   color: darkmagenta;
 
-  /* my stuff*/
+  /*my stuff starts*/
+  text-align:center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  /* my stuff ends*/
 }
 
 .sidebar {
@@ -42,6 +54,17 @@ body {
   background: royalblue;
 
   /* my stuff*/
+  flex: 1 0 auto;
+  font-size: 24px;
+}
+/* my stuff*/
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  padding: 16px;
 }
 
 .card {
@@ -51,4 +74,7 @@ body {
 
   /* my stuff*/
   flex: 0 1 auto;
+  max-width: 200px;
+  max-height: 200px;
+  font-size: 10px;
 }
